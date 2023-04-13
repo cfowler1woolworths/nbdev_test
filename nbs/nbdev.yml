@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_test"
+  site-url: "https://cfowler1woolworths.github.io/nbdev_test"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/cfowler1woolworths/nbdev_test"
