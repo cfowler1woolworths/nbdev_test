@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nbdev-test"
+version = "0.1.0"
+description = ""
+authors = ["cfowler1woolworths <cfowler1@woolworths.com.au>"]
+readme = "README.md"
+packages = [{include = "nbdev_test"}]
+
+[tool.poetry.dependencies]
+python = "3.9.10"
+notebook = "^6.5.4"
+nbdev = "^2.3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
